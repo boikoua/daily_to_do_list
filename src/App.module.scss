@@ -2,9 +2,29 @@
   position: relative;
   margin-block: 50px;
   width: 1000px;
-  height: 570px;
+  min-width: 300px;
   padding: 72px 200px 48px;
   border-radius: 32px;
   box-shadow: 0px 0px 4px 0px rgba(0, 23, 71, 0.15);
   background-color: rgb(255, 255, 255);
+
+  @media (max-width: 1024px) {
+    width: 700px;
+    padding: 48px 100px 48px;
+  }
+
+  @media (max-width: 768px) {
+    width: 400px;
+    padding: 28px 50px 28px;
+  }
+
+  @media (max-width: 425px) {
+    width: 320px;
+    padding: 28px 30px 28px;
+  }
+
+  @media (max-width: 320px) {
+    width: 300px;
+    padding: 28px 30px 28px;
+  }
 }

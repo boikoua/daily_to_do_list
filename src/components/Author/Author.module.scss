@@ -7,6 +7,7 @@
   border: 1px solid rgba(177, 186, 203, 0.1);
   border-radius: 8px;
   background: rgb(255, 255, 255);
+  box-shadow: 0px 0px 4px 0px rgba(0, 23, 71, 0.15);
 }
 
 .text {
@@ -24,5 +25,9 @@
     color: rgb(17, 23, 94);
     text-decoration: none;
     font-weight: 500;
+
+    @media (max-width: 1024px) {
+      font-size: 14px;
+    }
   }
 }
