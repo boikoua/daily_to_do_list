@@ -1,0 +1,45 @@
+.todo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 24px;
+}
+
+.state {
+  display: block;
+  border: 1px solid rgb(238, 238, 238);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.active {
+  background: rgb(0, 216, 167);
+  background-image: url('./../../../../public/img/done.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.text {
+  color: rgb(0, 23, 71);
+  font-family: Inter sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 110%;
+  letter-spacing: 1%;
+
+  &:hover {
+    color: rgb(45, 112, 253);
+    cursor: pointer;
+  }
+}
+
+.done {
+  color: rgb(143, 152, 168);
+  text-decoration-line: line-through;
+
+  &:hover {
+    color: rgb(143, 152, 168);
+  }
+}
