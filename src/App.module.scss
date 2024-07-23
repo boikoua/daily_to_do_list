@@ -1,10 +1,8 @@
 .app {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: relative;
+  margin-block: 50px;
   width: 1000px;
-  height: 570px;
+  height: 870px;
   padding: 72px 200px 48px;
   border-radius: 32px;
   box-shadow: 0px 0px 4px 0px rgba(0, 23, 71, 0.15);
