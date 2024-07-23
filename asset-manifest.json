@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/daily_to_do_list/static/css/main.55f1272d.css",
+    "main.js": "/daily_to_do_list/static/js/main.50c1941d.js",
+    "index.html": "/daily_to_do_list/index.html",
+    "static/media/done.svg": "/daily_to_do_list/static/media/done.b00fe30444de857656d3.svg",
+    "main.55f1272d.css.map": "/daily_to_do_list/static/css/main.55f1272d.css.map",
+    "main.50c1941d.js.map": "/daily_to_do_list/static/js/main.50c1941d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55f1272d.css",
+    "static/js/main.50c1941d.js"
+  ]
+}
