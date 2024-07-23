@@ -1,0 +1,28 @@
+.author {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 24px;
+  padding: 14px 24px;
+  border: 1px solid rgba(177, 186, 203, 0.1);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+}
+
+.text {
+  color: rgb(64, 81, 117);
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 110%;
+  letter-spacing: 2%;
+
+  & > a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 5px;
+    font-size: 16px;
+    color: rgb(17, 23, 94);
+    text-decoration: none;
+    font-weight: 500;
+  }
+}
